@@ -316,6 +316,42 @@
       });
     }
 
+    if (culturesSet.value === "ntno") {
+      return [
+       /*English - 1*/ {name:"raven", base:1, odd: 1},
+  
+       /*Russian - 49*/{name:"owl", base:49, odd: 1},
+       /*German - 0*/{name:"bear", base:0, odd: 1},
+       /*Yiddish - 51*/{name:"reindeer", base:51, odd: 1},
+       /*Nordic - 6*/{name:"wolf", base:6, odd: 1},
+       /*Ruthenian - 5*/{name:"hare", base:5, odd: 1},
+  
+       /*Hebraic - 46*/{name:"goat", base:46, odd: 1},
+       /*Arabic - 18*/{name:"jackal", base:18, odd: 1},
+       /*Iranian - 24*/{name:"lion", base:24, odd: 1},
+       /*Armenian - 43*/{name:"otter", base:43, odd: 1},
+       /*Akkaderi - 42*/{name:"markhur", base:42, odd: 1},
+       /*Egyptian - 44*/{name:"falcon", base:44, odd: 1},
+       /*Punic - 48 */{name:"bat", base:48, odd: 1},
+  
+       /*Ethiopian - 45*/{name:"ibex", base:45, odd: 1},
+       /*Nigerian - 21*/{name:"aardvark", base:21, odd: 1},
+       /*Swahili - 28*/{name:"oryx", base:28, odd: 1},
+  
+       /*Hindi - 47*/{name:"tiger", base:47, odd: 1},
+       /*Tamil - 50*/{name:"cobra", base:50, odd: 1},
+       /*Karnataka - 26*/{name:"leopard", base:26, odd: 1},
+  
+       /*Classicalus - 54*/{name:"salamander", base:54, odd: 1},
+       /*Latin - 52*/{name:"eagle", base:52, odd: 1},
+       /*Italian - 3*/{name:"dolphin", base:3, odd: 1},
+       /*Castillian - 4*/{name:"horse", base:4, odd: 1},
+       /*Portuguese - 13 */{name:"fox", base:13, odd: 1},
+  
+       /*Mesotec - 53*/{name:"tamarin", base:53, odd: 1}
+     ];
+   }
+
     // all-world
     return [
       {name:"Shwazen", base:0, odd: .7, sort: i => n(i) / td(i, 10) / bd(i, [6, 8])},
