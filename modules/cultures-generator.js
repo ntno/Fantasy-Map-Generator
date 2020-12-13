@@ -318,7 +318,7 @@
 
     if (culturesSet.value === "ntno") {
       return [
-       /*English - 1*/ {name:"raven", base:1, odd: 1},
+      //  /*English - 1*/ {name:"raven", base:1, odd: 1}, <-wildlands will default to english
   
        /*Russian - 49*/{name:"owl", base:49, odd: 1},
        /*German - 0*/{name:"bear", base:0, odd: 1},
